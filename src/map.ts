@@ -14,6 +14,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
+import * as PF from 'pathfinding'
 import { Config } from './config.js'
 import { getCurrentMapInfo, lookupMapName } from './data.js'
 import { Events } from './events.js'
@@ -26,8 +27,6 @@ import { centerCamera } from './renderer.js'
 import { Scripting } from './scripting.js'
 import { fromTileNum, hexToTile } from './tile.js'
 import { arrayRemove, arrayWithout, getFileJSON } from './util.js'
-
-declare let PF: any
 
 // Representation of game map and its serialized forms
 

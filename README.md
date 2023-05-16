@@ -71,7 +71,7 @@ Otherwise you can install the dependencies manually:
 
 -   [Pipenv](https://github.com/pypa/pipenv) for Python dependency management.
 
--   The TypeScript compiler, installed via `npm install` (you'll need [node.js](https://nodejs.org/en/)).
+-   The TypeScript compiler, installed via `pnpm i` (you'll need [node.js](https://nodejs.org/en/)).
 
 Once you've got all that, you can start trying it out.
 
@@ -90,7 +90,7 @@ If you're comfortable with setting up nginx, lighttpd, or Apache, go for that. I
 
 -   Python 3: `python -m http.server`
 
-Then run `npx tsc` after you've run `npm install` to compile the source code.
+Then run `pnpm dev` after you've run `pnpm i` to compile the source code.
 
 Browse to `http://localhost/play.html?artemple` (or whatever port you're using). If all went well, it should begin the game. If not, check the JavaScript console for errors.
 

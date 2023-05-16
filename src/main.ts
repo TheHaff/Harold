@@ -12,6 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
+import '../lut/intensityColorTable.js'
 import { HTMLAudioEngine, NullAudioEngine } from './audio.js'
 import { Combat } from './combat.js'
 import { critterKill } from './critter.js'
