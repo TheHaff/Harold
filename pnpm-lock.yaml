@@ -2,10 +2,10 @@ lockfileVersion: '6.0'
 
 dependencies:
   '@types/pathfinding':
-    specifier: ^0.0.6
+    specifier: 0.0.6
     version: 0.0.6
   pathfinding:
-    specifier: ^0.4.18
+    specifier: 0.4.18
     version: 0.4.18
 
 devDependencies:
